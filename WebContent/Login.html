@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body style ="background-color:darkTurquoise;">
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style>
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td {
+	text-align: center;
+	padding: 8px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+</style>
+<center>
+<br> <br> <br> <b>Employee Management System</b>
+</center>
+</head>
+<br>
+<br>
+<br>
+<body>
+	<form method="post" action="PasswordChecker">
+		<center>
+			<table>
+			 <img src="avatar.png"  class="avatar"> 
+				<tr>
+					<td><label for="uname">Username : </label> <input type="text"
+						placeholder="Enter Username" name="uname" required></td>
+				</tr>
+
+				<tr>
+					<td>Password: <input type="password" placeholder="Password"
+						name="pwd" required>
+					</td>
+				</tr>
+
+				<td></td>
+				<tr>
+					<td>
+						<button type="submit">Login</button>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</form>
+</body>
+</html>
